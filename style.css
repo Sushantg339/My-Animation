@@ -33,14 +33,6 @@ html , body{
     font-size: 20px;
 }
 
-
-
-.nav h3:hover{
-    animation-name: underlin;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-}
-
 .nav-part2{
     display: flex;
     gap: 50px;
@@ -79,6 +71,7 @@ img{
     left: 40%;
     object-fit: cover;
     /* background-color: red; */
+    border-radius: 20px;
 }
 
 #img1{
