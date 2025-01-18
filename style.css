@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+.nav{
+    height: 8%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav h3{
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+
+.nav h3:hover{
+    animation-name: underlin;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+
+.nav-part2{
+    display: flex;
+    gap: 50px;
+}
+
+#main h1{
+    font-size: 9vw;
+    color: #fff;
+    line-height: 8.5vw;
+    text-transform: uppercase;
+    font-weight: 100;
+    width: 80%;
+    /* background-color: red; */
+    margin-left: 10%;
+    position: relative;
+    z-index: 1;
+}
+
+#main h1:nth-child(2){
+    margin-top: 280px;
+}
+
+#main h1:nth-child(3){
+    text-align: center;
+}
+
+#main h1:nth-child(4){
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    object-fit: cover;
+    /* background-color: red; */
+}
+
+#img1{
+    rotate:10deg;
+}
+
+#img2{
+    rotate:5deg;
+    object-position: 0% 0%;
+}
+#img3{
+    z-index: 0.8;
+}
